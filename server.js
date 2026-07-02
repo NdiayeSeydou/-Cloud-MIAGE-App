@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
         <tr><td><b>Hostname</b></td><td>${process.env.HOSTNAME || 
 'local'}</td></tr> 
         <tr><td><b>Port</b></td><td>${PORT}</td></tr> 
+         <tr><td><b>Env</b></td><td>${process.env.APP_ENV || 'development'}</td></tr> 
         <tr><td><b>Node version</b></td><td>${process.version}</td></tr> 
         <tr><td><b>Platform</b></td><td>${process.platform}</td></tr> 
          <tr><td><b>Votre nom</b></td><td>Ndiaye Seydou</td></tr> 
